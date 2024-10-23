@@ -1,21 +1,25 @@
 .splash-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f5f5f5;
-  }
-  
-  .logo-container {
-    text-align: center;
-  }
-  
-  .logo-container img {
-    width: 150px;
-  }
-  
-  .logo-container h1 {
-    font-family: 'Arial', sans-serif;
-    color: #b78c6b;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo-container img {
+  width: 305px;
+  height: auto;
+}
+
+h1 {
+  margin-top: 20px;
+  font-family: fantasy;
+  color: white;
+  font-size: xx-large;
+}
+
   

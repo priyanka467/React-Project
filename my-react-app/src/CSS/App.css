@@ -50,3 +50,57 @@
   align-items: center;
   z-index: 1000; /* Ensure it is on top */
 }
+
+
+.onboarding-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-section {
+  width: 32%;
+  background-color: #BF9767;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.right-section {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px;
+  background-color: #c4a484;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #BF9767;
+}
+
+.onboarding-title {
+  font-size: 2em; /* Adjust the size as needed */
+  font-weight: bold;
+  letter-spacing: 2px; /* This adds space between letters */
+  color: #ffffff; /* Adjust color based on design */
+}

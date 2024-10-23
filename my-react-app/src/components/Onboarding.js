@@ -6,7 +6,9 @@ const Onboarding = ({ step, onNext }) => {
     <div className="onboarding-container">
       {step === 1 && (
         <div className="onboarding-step">
-          <h2>Looks like you're new here!</h2>
+          <div class="onboarding-title">
+            LOOKS LIKE YOU'RE NEW HERE!
+          </div>
           <p>Sign up with your mobile number to get started.</p>
           <button onClick={onNext}>Sign Up</button>
         </div>

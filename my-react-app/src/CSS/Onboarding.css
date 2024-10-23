@@ -1,39 +1,29 @@
 .onboarding-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #fff;
-  }
-  
-  .onboarding-step {
-    text-align: center;
-    width: 50%;
-  }
-  
-  .onboarding-step h2 {
-    font-family: 'Arial', sans-serif;
-    color: #b78c6b;
-  }
-  
-  .onboarding-step button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #b78c6b;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .onboarding-step form input {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    width: 80%;
-  }
-  
-  .onboarding-step form button {
-    background-color: #b78c6b;
-    color: white;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  /* font-family: 'Arial', sans-serif; */
+  margin-top: 20px;
+  font-family: fantasy;
+  color: white;
+  font-size: xx-large;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #555;
+}
