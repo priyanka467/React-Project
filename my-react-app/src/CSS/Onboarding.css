@@ -1,0 +1,39 @@
+.onboarding-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .onboarding-step {
+    text-align: center;
+    width: 50%;
+  }
+  
+  .onboarding-step h2 {
+    font-family: 'Arial', sans-serif;
+    color: #b78c6b;
+  }
+  
+  .onboarding-step button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #b78c6b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .onboarding-step form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+  }
+  
+  .onboarding-step form button {
+    background-color: #b78c6b;
+    color: white;
+  }
+  
